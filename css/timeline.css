@@ -204,6 +204,48 @@ a{
   .card:nth-child(even) > .info > .title::before {
     right: -45px;
   }
+
+.event1img {
+    width: 15%;
+    height:auto;
+    position: absolute;
+    left:100px;
+    top:200px;
+}
+
+.event2img{
+    width: 15%;
+    height:auto;
+    position: absolute;
+    left:1600px;
+    top:500px;
+}
+
+.event3img {
+    width: 15%;
+    height:auto;
+    position: absolute;
+    left:100px;
+    top:750px;
+}
+
+
+
+.event4img{
+    width: 18%;
+    height:auto;
+    position: absolute;
+    left:1600px;
+    top:1000px;
+}
+
+.event5img {
+    width: 15%;
+    height:auto;
+    position: absolute;
+    left:100px;
+    top:1250px;
+}
   
 
 
