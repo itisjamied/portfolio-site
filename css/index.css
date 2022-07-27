@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    width: 100%;
+    height:100%;
+    display: flex;
+    background: #242424;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar {
+    display:flex;
+    padding-top:20px;
+    justify-content: center;
+}
+
+.nav-button {
+    font-size:20px;
+    color:rgb(255, 246, 82);
+    padding:10px;
+    margin: 10px;
+    border-radius: 6px;
+    background: #242424;
+    box-shadow:  8px 8px 16px #191919,
+                 -8px -8px 16px #292828;
+   transition: all .3s ease-in-out;
+}
+
+.nav-button:hover{
+    color:white;
+}
+
+.message{
+    margin-left:10%;
+}
+.section{
+    display:flex;
+    flex-direction:row;
+}
+
+.intro{
+   margin-left: 20%;
+   margin-top:10%;
+   width:35%;
+   transition: all .5s ease-in-out;
+   margin-bottom:10%
+}
+
+.intro:hover{
+    transform: scale(110%);
+}
+
+h1{
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size:80px;
+}
+
+.highlight {
+    color:rgb(255, 246, 82);
+    font-weight: bolder;
+    margin-left:10px
+}
+
+p {
+    color:white;
+    line-height:40px;
+    font-size:20px
+}
+
+a{
+    cursor: grab;
+}
+
+.projects {
+    display:flex;
+    flex-direction:column;
+    margin-top:50px;
+    margin-bottom: 100px;
+}
+
+.project-row {
+    width:80%;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.row{
+    display:flex;
+    flex-direction:row;
+}
+
+.header {
+    color:white;
+    font-size:30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    padding:10px;
+    margin: 20px;
+    margin-top:200px;
+    border-radius: 6px;
+    background: #242424;
+    box-shadow:  8px 8px 16px #191919,
+                 -8px -8px 16px #292828;
+    width:15%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    margin: 20px;
+    border-radius: 6px;
+    background: #242424;
+    box-shadow:  8px 8px 16px #191919,
+                 -8px -8px 16px #292828;
+    width:15%;
+}
+.project-name{ 
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    margin :10px;
+}
+
+.image{
+    width:80px;
+    height:auto;
+}
+
+.description {
+    color:white;
+    text-align: center;
+    margin:10px;
+}
+
+.languages {
+    display:flex;
+    flex-direction:row;
+}
+
+.html{
+    color:rgb(244, 108, 108);
+    font-weight:bold;
+    margin-left:5px;
+    margin-right:5px
+}
+
+.css {
+    color:rgb(126, 188, 210);
+    font-weight:bold;
+    margin-left:5px;
+    margin-right:5px
+}
+
+.phaser{
+    color:rgb(122, 196, 135);
+    font-weight:bold;
+    margin-left:5px;
+    margin-right:5px
+}
+
+.spline{
+    color:rgb(197, 151, 190);
+    font-weight:bold;
+    margin-left:5px;
+    margin-right:5px
+}
+
+
+
+.expo {
+    color:rgb(156, 156, 251);
+    font-weight:bold;
+    margin-left:5px;
+    margin-right:5px
+}
+
+.react {
+    color:rgb(245, 141, 141);
+    font-weight:bold;
+    margin-left:5px;
+    margin-right:5px
+}
+
+.oculus{
+    color:rgb(161, 161, 161);
+    font-weight:bold;
+    margin-left:5px;
+    margin-right:5px
+}
+
+.card-buttons{
+    display:flex;
+    margin-top:20px;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+.card-button{
+    font-size:15px;
+    color:rgb(255, 246, 82);
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin: 5px;
+    border-radius: 3px;
+    background: linear-gradient(145deg, #202020, #272727);
+    box-shadow:  3px 3px 6px #1e1e1e,
+                 -3px -3px 6px #2a2a2a;
+}
+
+.card-button:hover {
+    border-radius: 3px;
+    background: #242424;
+    box-shadow: inset 3px 3px 6px #1e1e1e,
+            inset -3px -3px 6px #2a2a2a;
+}
+
+.svg {
+    
+}
+
+.fast-food{
+    width:100px;
+    margin-left:10px;
+}
+
+.dividing-line {
+   display:flex;
+   align-self:center;
+   width:900px;
+   height:10px;
+   border-radius: 4px;
+   background: linear-gradient(145deg, #e6dd4a, #ffff58);
+   /* box-shadow:  1px 1px 5px #666221,
+                -1px -1px 5px #ffff83; */
+}
+
+.circle{
+    width:70px;
+    margin:10px;
+    fill:rgb(255, 246, 82)
+}
+
+.cirlce:hover {
+    fill:rgb(122, 196, 135)
+}
+
+.top-feature{
+    position:absolute;
+    right: 20%;
+    top: 25%;
+
+}
