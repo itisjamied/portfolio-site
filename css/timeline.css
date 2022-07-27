@@ -246,6 +246,14 @@ a{
     left:100px;
     top:1250px;
 }
+
+img{
+    transition: all .5s ease-in-out;
+}
+
+img:hover{
+    transform: scale(120%);
+}
   
 
 
