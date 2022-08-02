@@ -18,15 +18,10 @@
         <a class="nav-button" href="index.html"> 🏠 Home </a>
         <a class="nav-button" href="timeline.html"> ⏳ Timeline</a>
         <a class="nav-button" href="resume.html"> 📝 Resume</a>
-        <a class="nav-button message" href="resume.html"> ✉️ </a>
+        <a class="nav-button message" onclick="document.getElementById('id01').style.display='block'"> ✉️ </a>
     </nav>
 
-    <!-- images -->
-    <img class="event1img" src="/images/afh-teen-coder.svg">
-    <img class="event2img" src="images/conferances.svg">
-    <img class="event3img" src="/images/gwc-summer.svg">
-    <img class="event4img" src="/images/kwk-summer.svg">
-    <img class="event5img" src="images/afh-youth-leader.svg">
+
 
     <div class="timeline">
         <div class="outer">
@@ -40,6 +35,7 @@
                         basics of web-development and had opportunities to work with clientel.
                     </p>
                 </div>
+                <img class="event-img" src="/images/afh-teen-coder.svg">
             </div>
             <div class="card">
                 <div class="info">
@@ -50,6 +46,7 @@
                         Ui/Ux design, AR and Vr, and machine leaning
                     </p>
                 </div>
+                <img class="event-img" src="images/conferances.svg">
             </div>
             <div class="card">
                 <div class="info">
@@ -60,6 +57,7 @@
                         myself to bridging that gap.
                     </p>
                 </div>
+                <img class="event-img" src="images/gwc-summer.svg">
             </div>
             <div class="card">
                 <div class="info">
@@ -70,6 +68,7 @@
                         that could be used to educate them on animals and wild-life. One of my favorite projects so far!
                     </p>
                 </div>
+                <img class="event-img" src="images/kwk-summer.svg">
             </div>
             <div class="card">
                 <div class="info">
@@ -80,9 +79,36 @@
 
                     </p>
                 </div>
+                <img class="event-img" src="images/afh-youth-leader.svg">
             </div>
         </div>
     </div>
+
+
+    <!-- modal stuff -->
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+
+            </div>
+
+            <div class="container">
+                <label for="contact"><b>Contact</b></label>
+                <input type="text" placeholder="Enter Email or Phone Number" name="contact" required>
+
+                <label for="message"><b>Message</b></label>
+                <input type="message" placeholder="Enter Message" name="message" required>
+
+                <button type="submit">Send</button>
+
+            </div>
+        </form>
+    </div>
+
 </body>
 
 

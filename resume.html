@@ -18,19 +18,44 @@
         <a class="nav-button" href="index.html"> 🏠 Home </a>
         <a class="nav-button" href="timeline.html"> ⏳ Timeline</a>
         <a class="nav-button" href="resume.html"> 📝 Resume</a>
-        <a class="nav-button message" href="resume.html"> ✉️ </a>
+        <a class="nav-button message" onclick="document.getElementById('id01').style.display='block'"> ✉️ </a>
     </nav>
 
     <h1>Resume</h1>
-    <hr>
     <div class="resume">
 
         <iframe
             src="https://docs.google.com/document/d/e/2PACX-1vTO4Yz6-FIIjARu0yEKP-9SqFQPqAc-FxVatFUq0xt1qt7_7EgFP-33xE3kKkQ2ebmcFOyZ66s0X0Jz/pub?embedded=true"
-            frameBorder="0" scrolling="auto" height="1100px" width="800px">
+            frameBorder="0" scrolling="auto" height="1040px" width="800px" border-radius="30px">
 
         </iframe>
     </div>
+
+
+    <!-- modal stuff -->
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+
+            </div>
+
+            <div class="container">
+                <label for="contact"><b>Contact</b></label>
+                <input type="text" placeholder="Enter Email or Phone Number" name="contact" required>
+
+                <label for="message"><b>Message</b></label>
+                <input type="message" placeholder="Enter Message" name="message" required>
+
+                <button type="submit">Send</button>
+
+            </div>
+        </form>
+    </div>
+
 </body>
 
 </html>

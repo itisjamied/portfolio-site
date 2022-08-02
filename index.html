@@ -18,16 +18,15 @@
         <a class="nav-button" href="index.html"> 🏠 Home </a>
         <a class="nav-button" href="timeline.html"> ⏳ Timeline</a>
         <a class="nav-button" href="resume.html"> 📝 Resume</a>
-        <a class="nav-button message" href="resume.html"> ✉️ </a>
+        <a class="nav-button message" onclick="document.getElementById('id01').style.display='block'"> ✉️ </a>
     </nav>
 
     <div class="section">
         <div class="intro">
             <h1> Hi I'm <span class="highlight"> Jamie &lt/&gt </span> </h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat.
+            <p>I’m an aspiring fron-end web-developer from Boston, Ma. I work to bring access to technology and
+                technical literacy to underrepresented communities and youth.
+
             </p>
         </div>
         <div class="top-feature">
@@ -37,103 +36,130 @@
 
     <div class="header">Projects</div>
     <div class="projects">
-        <div class="project-row">
-            <div class="card">
-                <h1 class="highlight"> &lt/&gt</h1>
-                <div class="project-name"> Portfolio Site</div>
-                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore
-                    magna aliqua.</div>
-                <div class="languages">
-                    <div class="html">HTML</div>
-                    <div class="css">CSS</div>
-                </div>
-                <div class="card-buttons">
-                    <a class="card-button">DEMO</a>
-                    <a class="card-button" href="https://github.com/itisjamied" target="_blank">GITHUB</a>
-                </div>
+        <div class="card">
+            <div class="portfolio-image highlight"> &lt/&gt</div>
+            <div class="project-name"> Portfolio Site</div>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore
+                magna aliqua.</div>
+            <div class="languages">
+                <div class="html">HTML</div>
+                <div class="css">CSS</div>
+            </div>
+            <div class="card-buttons">
+                <a class="card-button">DEMO</a>
+                <a class="card-button" href="https://github.com/itisjamied" target="_blank">GITHUB</a>
+            </div>
 
+        </div>
+        <div class="card">
+            <img class="image fast-food" src="/images/chefHat.png">
+            <div class="project-name"> Fast Food</div>
+            <div class="description fastFoodText">You work at a fast food joint and your boss calls
+                out sick. It's your job to keep the place running. Serve all customers with the right dish to win
             </div>
-            <div class="card">
-                <img class="image fast-food" src="/images/chefHat.png">
-                <div class="project-name"> Fast Food</div>
-                <div class="description fastFoodText">You work at a fast food joint and your boss calls
-                    out sick. It's your job to keep the place running. Serve all customers with the right dish to win
-                </div>
-                <div class="languages">
-                    <div class="phaser">PHASER</div>
-                    <div class="react">JS</div>
-                </div>
-                <div class="card-buttons">
-                    <a class="card-button">DEMO</a>
-                    <a class="card-button" href="https://github.com/itisjamied" target="_blank">GITHUB</a>
-                </div>
+            <div class="languages">
+                <div class="phaser">PHASER</div>
+                <div class="react">JS</div>
             </div>
-            <div class="card">
-                <img class="image" src="/images/construction.png">
-                <div class="project-name"> Munchies</div>
-                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor
-                    incididunt ut labore et dolore
-                    magna aliqua.</div>
-                <div class="languages">
-                    <div class="expo">EXPO</div>
-                    <div class="react">REACT.JS</div>
-                </div>
-                <div class="card-buttons">
-                    <a class="card-button">DEMO</a>
-                    <a class="card-button" href="https://github.com/itisjamied" target="_blank">GITHUB</a>
-                </div>
-            </div>
-            <div class="card">
-                <img class="image" src="/images/construction.png">
-                <div class="project-name"> VR World</div>
-                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor
-                    incididunt ut labore et dolore
-                    magna aliqua.</div>
-                <div class="languages">
-                    <div class="oculus">OCULUS</div>
-                </div>
-                <div class="card-buttons">
-                    <a class="card-button">DEMO</a>
-                    <a class="card-button" href="https://github.com/itisjamied" target="_blank">GITHUB</a>
-                </div>
+            <div class="card-buttons">
+                <a class="card-button">DEMO</a>
+                <a class="card-button" href="https://github.com/itisjamied" target="_blank">GITHUB</a>
             </div>
         </div>
-        <div class="project-row">
-            <div class="card">
-                <img class="image" src="/images/elephant.png">
-                <div class="project-name"> Zootopic</div>
-                <div class="description">An app for an interactive and engaging zoo experience that's not
-                    only
-                    educational, but fun. Learn about different species of animals and be quized on what you know!</div>
-                <div class="languages">
-                    <div class="css">SWIFT</div>
-                    <div class="react">JS</div>
-                </div>
-                <div class="card-buttons">
-                    <a class="card-button">DEMO</a>
-                    <a class="card-button" href="https://github.com/itisjamied" target="_blank">GITHUB</a>
-                </div>
-
+        <div class="card">
+            <img class="image" src="/images/construction.png">
+            <div class="project-name"> Munchies</div>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut labore et dolore
+                magna aliqua.</div>
+            <div class="languages">
+                <div class="expo">EXPO</div>
+                <div class="react">REACT.JS</div>
             </div>
-            <div class="card">
-                <img class="image" src="/images/construction.png">
-                <div class="project-name"> Spline Projects</div>
-                <div class="description">Spline is web-app to easily make simple 3D models and scenes that can be
-                    exported as React code. This was made following their 3D room design tutorial.</div>
-                <div class="languages">
-                    <div class="spline">SPLINE</div>
-                </div>
-                <div class="card-buttons">
-                    <a class="card-button">DEMO</a>
-                    <a class="card-button" href="https://github.com/itisjamied" target="_blank">GITHUB</a>
-                </div>
-
+            <div class="card-buttons">
+                <a class="card-button">DEMO</a>
+                <a class="card-button" href="https://github.com/itisjamied" target="_blank">GITHUB</a>
             </div>
+        </div>
+        <div class="card">
+            <img class="image" src="/images/construction.png">
+            <div class="project-name"> VR World</div>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut labore et dolore
+                magna aliqua.</div>
+            <div class="languages">
+                <div class="oculus">OCULUS</div>
+            </div>
+            <div class="card-buttons">
+                <a class="card-button">DEMO</a>
+                <a class="card-button" href="https://github.com/itisjamied" target="_blank">GITHUB</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="image" src="/images/elephant.png">
+            <div class="project-name"> Zootopic</div>
+            <div class="description">An app for an interactive and engaging zoo experience that's not
+                only
+                educational, but fun. Learn about different species of animals and be quized on what you know!</div>
+            <div class="languages">
+                <div class="css">SWIFT</div>
+                <div class="react">JS</div>
+            </div>
+            <div class="card-buttons">
+                <a class="card-button">DEMO</a>
+                <a class="card-button" href="https://github.com/itisjamied" target="_blank">GITHUB</a>
+            </div>
+
+        </div>
+        <div class="card">
+            <img class="image" src="/images/construction.png">
+            <div class="project-name"> Spline Projects</div>
+            <div class="description">Spline is web-app to easily make simple 3D models and scenes that can be
+                exported as React code. This was made following their 3D room design tutorial.</div>
+            <div class="languages">
+                <div class="spline">SPLINE</div>
+            </div>
+            <div class="card-buttons">
+                <a class="card-button">DEMO</a>
+                <a class="card-button" href="https://github.com/itisjamied" target="_blank">GITHUB</a>
+            </div>
+
         </div>
     </div>
+    <div class="footer">
+        <div class="button">
+            <div class="linkedin" href="https://www.linkedin.com/in/jamie-de-los-santos-4ba618208/"> LinkedIn</div>
+        </div>
+    </div>
+
+
+    <!-- modal stuff -->
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+
+            </div>
+
+            <div class="container">
+                <label for="contact"><b>Contact</b></label>
+                <input type="text" placeholder="Enter Email or Phone Number" name="contact" required>
+
+                <label for="message"><b>Message</b></label>
+                <input type="message" placeholder="Enter Message" name="message" required>
+
+                <button type="submit">Send</button>
+
+            </div>
+        </form>
+    </div>
+
 </body>
 
 <script src="/script.js"></script>
